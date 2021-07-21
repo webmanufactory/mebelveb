@@ -386,16 +386,6 @@ template {
   padding: 0 20px;
 }
 
-.social-insta {
-  margin-bottom: 25px;
-  padding-top: 40px;
-  padding-left: 100px;
-  padding-right: 100px;
-  display: flex;
-  align-items: center;
-  background-color: #BFE1E3;
-}
-
 .social-insta__subscribe {
   flex-basis: 60%;
 }
@@ -521,11 +511,6 @@ template {
   color: inherit;
 }
 @media screen and (max-width: 992px) {
-  .social-insta {
-    padding-top: 15px;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
   .social-insta__text {
     font-size: 20px;
   }
@@ -536,14 +521,14 @@ template {
   .faq-description {
     padding: 40px;
   }
+  
+  .social-insta__body {
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 @media screen and (max-width: 768px) {
-  .social-insta {
-    padding-top: 30px;
-    padding-left: 25px;
-    padding-right: 25px;
-    flex-direction: column;
-  }
   .social-insta__subscribe {
     margin-bottom: 30px;
     flex-basis: 100%;
@@ -591,5 +576,341 @@ template {
   }
   .faq-description {
     padding: 15px 20px;
+  }
+
+  .social-insta__body {
+    padding-top: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+    flex-direction: column;
+  }
+  .insta-top__image {
+    display: none;
+  }
+}
+
+.insta-top {
+  display: flex;
+  align-items: center;
+}
+.social-insta__top {
+  margin-bottom: 20px;
+}
+.insta-top__image {
+  margin-right: 25px;
+}
+.social-insta__body {
+  margin-bottom: 25px;
+  padding-top: 40px;
+  padding-left: 100px;
+  padding-right: 100px;
+  display: flex;
+  align-items: center;
+  background-color: #BFE1E3;
+}
+
+.insta__title {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #000;
+}
+
+.insta__subtitle {
+  margin: 0;
+  font-size: 14px;
+  font-weight: bold;
+  color: #5E5E5E;
+}
+
+.insta__text {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.2;
+  text-decoration-line: underline;
+  color: #000000;
+}
+
+.insta-sale__text {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.descriptions__wrap {}
+
+.description-page {}
+
+.description-page__item {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.description-page__image {
+  width: 94px;
+  margin-right: 20px;
+  flex-shrink: 0;
+  text-align: center;
+}
+
+.description-page__img {
+  height: auto;
+}
+.description-page__title {
+  margin: 0;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+.description-page__text {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.3;
+}
+
+.description-page__list {
+  padding-inline-start: 15px;
+  font-size: 14px;
+  line-height: 1.3;
+}
+
+.thanks-page {
+  padding: 30px 75px;
+  min-height: 420px;
+  color: #fff;
+  background: url(img/thanks.png) right 75px bottom no-repeat, linear-gradient(73deg, #78CB3C 2%, #AFEE81 98%);
+}
+
+.thanks-page__image {
+  margin-bottom: 20px;
+}
+
+.thanks-page__title {
+  margin-top: 0;
+  margin-bottom: 65px;
+  color: inherit;
+}
+
+.thanks-page__subtitle {
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: inherit;
+}
+
+.thanks-page__order-number {
+  color: inherit;
+}
+.doubt-page__top {
+  padding-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(90deg, #67a6a3, #b7dcde);
+}
+
+.doubt-top__image {
+  margin-right: 70px;
+  align-self: flex-end;
+}
+
+.doubt-top__img {
+  max-width: 190px;
+  width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+
+.doubt-top__text {
+  text-align: center;
+  color: #fff;
+}
+
+.doubt-top__title {
+  color: inherit;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.doubt-top__mark {
+  color: inherit;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.doubt-top__button {
+  padding: 15px 20px;
+  color: #000;
+  background: #FFD050;
+  border: none;
+  outline: none;
+  border-radius: 24px;
+  cursor: pointer;
+}
+
+.doubt-bottom__text {
+  font-size: 18px;
+  line-height: 1.2;
+  color: #000000;
+}
+
+.doubt-page__cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.doubt-page__card {
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.doubt-card__title {
+  margin-bottom: 15px;
+  font-weight: 500;
+  font-size: 24px;
+  color: #000000;
+}
+
+.doubt-card__image {
+  margin-bottom: 15px;
+  padding: 10px;
+  width: 130px;
+  height: 130px;
+  line-height: 105px;
+  border-radius: 50%;
+  background: #6DAAA8;
+}
+
+.doubt-card__icon {
+  max-width: 105px;
+  width: 100px;
+  height: auto;
+  vertical-align: middle;
+}
+
+.difficulites-wrap {
+  margin-bottom: 50px;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+  background: linear-gradient(88deg, #FF710A 25%, #F424D3 123%);
+}
+
+.difficulites-description {}
+
+.difficulites-description__text {
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-size: 14px;
+  color: #000000;
+}
+
+.difficulites-description__form {}
+
+.difficulites-form__title {
+  margin: 0;
+  font-size: 24px;
+  color: #FFFFFF;
+}
+
+.difficulites-form__subtitle {
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+.difficulites-form__inputs {
+  display: flex;
+  flex-direction: column;
+
+}
+.difficulites-form__input {
+  margin-bottom: 15px;
+  padding: 13px 25px;
+  max-width: 325px;
+  font-size: 18px;
+  color: #000000;
+  background: #FFFFFF;
+  border: none;
+  border-radius: 16px;
+  outline: none;
+}
+.difficulites-form__input::placeholder {
+  color: #000000;
+}
+.difficulites-form__button {
+  margin-bottom: 15px;
+  padding: 13px 25px;
+  max-width: 230px;
+  font-size: 18px;
+  color: #FFFFFF;
+  background: #00AEF6;
+  border: none;
+  border-radius: 16px;
+  outline: none;
+}
+
+.difficulites-form__text {
+  margin: 0;
+  font-size: 10px;
+  color: #000000;
+}
+
+.difficulites-image {
+  max-width: 300px;
+}
+
+.difficulites-image__img {
+  width: 100%;
+  height: auto;
+}
+.difficulites__close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 47px;
+  height: 47px;
+  background: #fff;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+}
+.difficulites__close::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 25px;
+  height: 7px;
+  background-color: #8f8f8f;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+.difficulites__close::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 25px;
+  height: 7px;
+  background-color: #8f8f8f;
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+@media screen and (max-width: 992px) {
+  .difficulites-image {
+    display: none;
   }
 }
