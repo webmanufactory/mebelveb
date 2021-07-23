@@ -885,6 +885,7 @@ template {
   border: none;
   outline: none;
   border-radius: 50%;
+  cursor: pointer;
 }
 .difficulites__close::after {
   content: "";
@@ -913,4 +914,297 @@ template {
   .difficulites-image {
     display: none;
   }
+}
+
+.region-page__wrap {}
+
+.region-page {}
+
+.region-page__title {
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-size: 36px;
+  color: #000000;
+}
+
+.region-page__description {
+  margin-top: 0;
+  margin-bottom: 60px;
+  font-size: 16px;
+  color: #000000;
+}
+
+.region-page__subtitle {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: #000000;
+}
+
+.region-page__text {
+  margin-top: 0;
+  margin-bottom: 50px;
+  font-size: 14px;
+  color: #000000;
+}
+
+.region-page__companies {
+  margin-bottom: 25px;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.region-companies__item {
+  padding: 0 15px;
+  flex: 0 0 70px;
+}
+
+.region-companies__img {
+  width: 100%;
+  height: auto;
+}
+
+.region-page__form {
+  margin-bottom: 20px;
+  padding: 60px 55px 15px 25px;
+  background: #FFD050;
+  border-radius: 24px;
+}
+
+.region-form {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.region-form__inputs {
+  display: flex;
+  flex-direction: column;
+  flex: 0 1 480px;
+}
+
+.region-form__label {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #000000;
+}
+
+.region-form__input {
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  display: block;
+  width: 80%;
+  font-size: 18px;
+  color: #000000;
+  background-color: #FFFFFF;
+  border: none;
+  border-radius: 16px;
+  outline: none;
+}
+
+.region-form__send {
+  margin-bottom: 20px;
+}
+
+.region-form__title {
+  margin: 0;
+  font-size: 36px;
+  color: #000000;
+}
+
+.region-form__subtitle {
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-size: 24px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.region-form__btn {
+  padding: 14px;
+  width: 100%;
+  font-size: 18px;
+  text-align: center;
+  color: #FFFFFF;
+  background: #65A5A2;
+  border: none;
+  border-radius: 17px;
+  outline: none;
+}
+
+.region-form__conditions {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  text-align: right;
+  color: #353535;
+}
+
+.region-page__furniture {
+  margin-bottom: 60px;
+  padding: 15px 20px 0;
+  background: #BFE1E3;
+  border-radius: 8px;
+}
+
+.region-furnitures {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.region-furnitures__item {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.region-furnitures__text {
+  margin-top: 0;
+  margin-bottom: 20px;
+  display: block;
+  font-size: 14px;
+  color: #000000;
+}
+
+.region-furnitures__image {
+  max-width: 105px;
+  max-height: 105px;
+  border: 4px solid #fff;
+  border-radius: 8px;
+}
+
+.region-furnitures__img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.region-page__compositions {
+  margin-bottom: 40px;
+}
+
+.region-compositions {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.region-compositions__item {
+  margin: 20px;
+}
+
+.region-compositions__text {
+  margin-bottom: 20px;
+  display: block;
+  font-size: 14px;
+  color: #000000;
+}
+
+.region-compositions__image {
+  width: 190px;
+  height: 140px;
+  overflow: hidden;
+}
+
+.region-compositions__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.region-page__solutions {
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.region-solutions__item {
+  padding: 30px 15px;
+  flex-basis: 45%;
+  background: #FFD050;
+  border-radius: 8px;
+}
+.region-solutions__top {
+  display: flex;
+  align-items: center;
+}
+.region-solutions__top svg {
+  margin-right: 10px;
+}
+
+.region-solutions__title {
+  font-weight: bold;
+  font-size: 20px;
+  color: #000000;
+}
+
+.region-solutions__text {
+  font-size: 14px;
+  color: #000000;
+}
+
+.region-page__material {
+  margin-bottom: 40px;
+}
+
+.region-material {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.region-material__item {
+  margin: 20px;
+}
+
+.region-material__text {
+  margin-bottom: 20px;
+  display: block;
+  font-size: 14px;
+  color: #000000;
+}
+
+.region-material__image {
+  width: 190px;
+  height: 140px;
+  overflow: hidden;
+}
+
+.region-material__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.region-page__delivery {
+  padding: 40px 15px;
+  position: relative;
+  min-height: 435px;
+  background: #BFE1E3 url(img/icons/repair.png) right 5% bottom 25% / 120px no-repeat;
+  border-radius: 24px;
+}
+
+.region-delivery {
+  position: absolute;
+  right: 60px;
+  bottom: -70px;
+  max-width: 700px;
+}
+.region-delivery__info {
+  padding: 20px 30px;
+  background: #FFD050;
+  border-radius: 24px;
+}
+.region-delivery__text {
+  margin-bottom: 0;
+}
+.region-delivery__image {
+  margin-left: 30px;
+  max-width: 210px;
+}
+
+.region-delivery__img {
+  width: 100%;
+  height: auto;
 }
