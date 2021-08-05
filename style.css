@@ -704,6 +704,8 @@ template {
 }
 .doubt-page__top {
   padding-top: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -806,24 +808,17 @@ template {
   position: relative;
   background: linear-gradient(88deg, #FF710A 25%, #F424D3 123%);
 }
-
-.difficulites-description {}
-
 .difficulites-description__text {
   margin-top: 0;
   margin-bottom: 30px;
   font-size: 14px;
   color: #000000;
 }
-
-.difficulites-description__form {}
-
 .difficulites-form__title {
   margin: 0;
   font-size: 24px;
   color: #FFFFFF;
 }
-
 .difficulites-form__subtitle {
   margin-top: 0;
   margin-bottom: 30px;
@@ -833,7 +828,6 @@ template {
 .difficulites-form__inputs {
   display: flex;
   flex-direction: column;
-
 }
 .difficulites-form__input {
   margin-bottom: 15px;
@@ -860,17 +854,14 @@ template {
   border-radius: 16px;
   outline: none;
 }
-
 .difficulites-form__text {
   margin: 0;
   font-size: 10px;
   color: #000000;
 }
-
 .difficulites-image {
   max-width: 300px;
 }
-
 .difficulites-image__img {
   width: 100%;
   height: auto;
@@ -918,10 +909,6 @@ template {
     flex-wrap: wrap;
   }
 }
-
-.region-page__wrap {}
-
-.region-page {}
 
 .region-page__title {
   margin-top: 0;
@@ -1181,6 +1168,7 @@ template {
 }
 
 .region-page__delivery {
+  margin-bottom: 100px;
   padding: 40px 15px;
   position: relative;
   min-height: 435px;
@@ -1278,5 +1266,462 @@ template {
   }
   .region-page__delivery {
     background-image: none;
+  }
+}
+
+.ecsystem-page__wrap {
+  margin-bottom: 30px;
+}
+.ecsystem-page__title {
+  font-size: 26px;
+  text-align: center;
+  color: #000000;
+}
+.ecsystem-page__form {
+  margin-bottom: 10px;
+  padding: 60px 55px 15px 25px;
+  background: #FFD050;
+  border-radius: 24px;
+}
+.ecsystem-form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.ecsystem-form__inputs {
+  display: flex;
+  flex-direction: column;
+  flex: 0 1 480px;
+}
+.ecsystem-form__label {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #000000;
+}
+.ecsystem-form__input {
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  display: block;
+  width: 80%;
+  font-size: 18px;
+  color: #000000;
+  background-color: #FFFFFF;
+  border: none;
+  border-radius: 16px;
+  outline: none;
+}
+
+.ecsystem-form__send {
+  margin-bottom: 20px;
+}
+.ecsystem-form__text {
+  margin-bottom: 35px;
+  display: flex;
+  align-items: center;
+}
+.ecsystem-form__icon {
+  margin-right: 35px;
+}
+.ecsystem-form__title {
+  font-size: 36px;
+  color: #FFFFFF;
+  white-space: nowrap;
+}
+.ecsystem-form__btn {
+  padding: 14px;
+  width: 100%;
+  font-size: 18px;
+  text-align: center;
+  color: #FFFFFF;
+  background: #65A5A2;
+  border: none;
+  border-radius: 17px;
+  outline: none;
+}
+.ecsystem-form__conditions {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  text-align: right;
+  color: #353535;
+}
+.ecsystem-page__text {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 1.2;
+  color: #000000;
+}
+.ecsystem-page__cards-wrap {
+  margin-top: 0;
+  margin-bottom: 60px;
+  list-style-type: none;
+  padding-inline: 0;
+}
+.ecsystem-maincard {
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+.ecsystem-maincard__title {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 36px;
+  color: #000000;
+}
+.ecsystem-maincard__image {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 284px;
+  height: 284px;
+  border-radius: 50%;
+  background: #6DAAA8;
+}
+.ecsystem-maincard__icon {
+  max-width: 178px;
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+.ecsystem-maincard__text {
+  flex-basis: 300px;
+}
+.ecsystem-page__cards {
+  padding-inline: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+.ecsystem-page__card {
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-basis: 30%;
+  text-align: center;
+}
+.ecsystem-card__title {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  color: #000000;
+}
+.ecsystem-card__text {
+  font-size: 12px;
+  text-align: center;
+  color: #000000;
+}
+.ecsystem-card__image {
+  margin-bottom: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 168px;
+  height: 168px;
+  border-radius: 50%;
+  background: #6DAAA8;
+}
+.ecsystem-card__icon {
+  max-width: 110px;
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+.ecsystem-benefits__top {
+  padding: 30px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #FFE8A9;
+}
+.ecsystem-benefits__top-text {
+  flex-basis: 50%;
+}
+.ecsystem-benefits__top-title {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 24px;
+  color: #000000;
+}
+.ecsystem-benefits__top-subtitle {
+  margin: 0;
+  font-size: 18px;
+  color: #000000;
+}
+.ecsystem-benefits__top-image {
+  flex-basis: 50%;
+  text-align: center;
+}
+.ecsystem-benefits__top-img {
+  max-width: 96px;
+  width: 100%;
+  height: auto;
+}
+.ecsystem-benefits__middle {
+  padding: 30px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 4px solid #000;
+}
+.ecsystem-benefits__middle-title {
+  margin: 0;
+  flex-basis: 50%;
+  font-size: 24px;
+  color: #000000;
+}
+.ecsystem-benefits__middle-text {
+  margin: 0;
+  flex-basis: 50%;
+  font-weight: 500;
+  font-size: 18px;
+  color: #000000;
+}
+.ecsystem-benefits__submiddle {
+  padding: 30px 100px;
+  background-color: #FFD050;
+}
+.ecsystem-benefits__submiddle-title {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-weight: 500;
+  font-size: 24px;
+  color: #000000;
+}
+.ecsystem-benefits__submiddle-text {
+  margin: 0;
+  font-size: 18px;
+  color: #000000;
+}
+.ecsystem-benefits__bottom {
+  padding: 30px 0 30px 100px;
+  background-color: #BFE1E2;
+}
+.ecsystem-benefits__bottom-title {
+  margin-bottom: 25px;
+  font-weight: 500;
+  font-size: 30px;
+  color: #000000;
+}
+.ecsystem-benefits__bottom-list {
+  padding-inline: 25px;
+  column-count: 2;
+}
+.ecsystem-benefits__bottom-item {
+  margin-top: 0;
+  margin-right: 25px;
+  margin-bottom: 30px;
+  font-weight: 500;
+  font-size: 24px;
+  color: #000000;
+}
+.ecsystem-more_benefits__title {
+  font-size: 24px;
+  text-align: center;
+  color: #000000;
+}
+.ecsystem-more_benefits__items {
+  padding-inline: 0;
+  list-style-type: none;
+}
+.ecsystem-more_benefits__item {
+  margin-top: 0;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.ecsystem-more_benefits__text {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 18px;
+  text-align: center;
+  color: #515151;
+}
+.ecsystem-more_benefits__img {
+  max-width: 54px;
+  width: 100%;
+  height: auto;
+}
+.gift-block {
+  max-width: 255px;
+
+  padding: 15px 30px;
+  text-align: center;
+  background: linear-gradient(180deg, #FFAD93 0%, #FFEC8B 100%);
+}
+.gift-block__image {
+  margin-bottom: 20px;
+}
+.gift-block__img {
+  max-width: 175px;
+  width: 100%;
+  height: auto;
+}
+.gift-block__title {
+  margin-top: 0;
+  margin-bottom: 40px;
+  font-weight: bold;
+  font-size: 36px;
+  text-align: left;
+  color: #000000;
+}
+.gift-title__mark {
+  font-weight: normal;
+  font-size: 30px;
+  color: #000000;
+}
+.gift-block__subtitle {
+  font-weight: bold;
+  font-size: 16px;
+  color: #000000;
+}
+.gift-block__list {
+  padding-inline: 0;
+  list-style-type: none;
+}
+.gift-item__img {
+  max-width: 90px;
+  width: 100%;
+  height: auto;
+}
+.gift-item__text {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-weight: normal;
+  font-size: 14px;
+  color: #000000;
+}
+.gift-block__ad {
+  text-align: right;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 6px;
+}
+.gift-ad__text {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-weight: 500;
+  font-size: 12px;
+  color: #000000;
+  text-align: left;
+}
+.gift-ad__img {
+  max-width: 175px;
+  width: 100%;
+  height: auto;
+}
+.gift-block__info {
+  font-weight: 500;
+  font-size: 12px;
+  color: #000000;
+}
+@media screen and (max-width: 768px) {
+  .ecsystem-form {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .ecsystem-form__input {
+    width: 100%;
+  }
+  .ecsystem-page__text {
+    font-size: 14px;
+  }
+  .ecsystem-maincard__text {
+    flex-basis: initial;
+  }
+  .ecsystem-maincard__text .ecsystem-page__text {
+    display: none;
+  }
+  .ecsystem-page__cards {
+    flex-wrap: wrap;
+  }
+  .ecsystem-card__text {
+    display: none;
+  }
+  .ecsystem-maincard {
+    flex-direction: column;
+  }
+  .ecsystem-card__image {
+    width: 97px;
+    height: 97px;
+  }
+  .ecsystem-card__icon {
+    max-width: 64px;
+  }
+  .ecsystem-card__title {
+    font-size: 14px;
+  }
+  .ecsystem-benefits__top,
+  .ecsystem-benefits__middle,
+  .ecsystem-benefits__submiddle,
+  .ecsystem-benefits__bottom {
+    padding: 20px 15px;
+  }
+  .ecsystem-benefits__top,
+  .ecsystem-benefits__middle {
+    flex-direction: column;
+  }
+  .ecsystem-benefits__top-text,
+  .ecsystem-benefits__middle-title {
+    margin-bottom: 15px;
+  }
+  .ecsystem-benefits__submiddle-title {
+    font-size: 36px;
+  }
+  .ecsystem-benefits__bottom-list {
+    column-count: 1;
+  }
+  .ecsystem-more_benefits__items {
+    column-count: 2;
+  }
+  .doubt-top__title {
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    color: #000000;
+  }
+  .doubt-top__mark {
+    font-weight: 500;
+    font-size: 18px;
+  }
+  .doubt-top__subtitle {
+    display: none;
+  }
+  .doubt-page__top {
+    padding-bottom: ;
+  }
+}
+@media screen and (max-width: 576px) {
+  .ecsystem-form__icon {
+    display: none;
+  }
+  .ecsystem-maincard__image {
+    width: 200px;
+    height: 200px;
+  }
+  .ecsystem-maincard__icon {
+    max-width: 135px;
+  }
+  .doubt-page__top {
+    flex-direction: column-reverse;
+  }
+  .doubt-top__image {
+    padding-top: 15px;
+    margin-right: 0;
+    align-self: center;
+  }
+  .doubt-top__img {
+    max-width: 130px;
   }
 }
