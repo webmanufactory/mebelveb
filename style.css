@@ -1778,6 +1778,11 @@ template {
     padding: 0 25px;
   }
 }
+@media screen and (max-width: 425px) {
+  .main-buttons__text {
+    font-size: 14px;
+  }
+}
 /*main-buttons block end*/
 
 /*404-block start*/
@@ -2220,6 +2225,7 @@ template {
   padding-inline: 0;
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
 }
 .contacts-socials__item:not(:last-child) {
   margin-right: 18px;
@@ -2231,6 +2237,9 @@ template {
 .contacts-socials__link-icon {
   width: 100%;
   height: auto;
+}
+.contacts-bottom {
+  margin-bottom: 80px;
 }
 .contacts-bottom__header {
   margin-bottom: 60px;
@@ -2367,4 +2376,115 @@ template {
     line-height: 2;
   }
 }
+@media screen and (max-width: 425px) {
+  .contacts-top {
+    justify-content: center;
+  }
+  .contacts-top__link {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .contacts-top__mail-image,
+  .contacts-top__star-image {
+    margin-bottom: 10px;
+  }
+  .contacts-socials {
+    padding: 25px 15px;
+  }
+  .contacts-socials__item {
+    margin-bottom: 10px;
+  }
+}
 /*contacts end*/
+
+/* Что такое мебельвеб начало */
+.product-question {
+  margin-bottom: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 700px;
+}
+.product-question__video {
+  margin-bottom: 30px;
+  color: #000000;
+}
+.product-video__title {
+  margin: 0;
+  font-weight: bold;
+  font-size: 24px;
+}
+.product-video__subtitle {
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-weight: normal;
+  font-size: 24px;
+}
+.product-video__video {
+  width: 100%;
+  height: auto;
+}
+.product-write__title {
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-weight: bold;
+  font-size: 24px;
+}
+.product-write__more {
+  display: flex;
+  background-color: #1F2C30;
+}
+.product-write__image {
+  flex: 0 0 50%;
+  line-height: 0;
+}
+.product-write__img {
+  width: 100%;
+  height: auto;
+}
+.product-write__info {
+  padding-top: 30px;
+  padding-left: 10px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 0 0 50%;
+  text-align: center;
+}
+.product-write__text {
+  margin-bottom: 80px;
+  font-size: 14px;
+  text-align: right;
+  color: #FFFFFF;
+}
+.product-write__link {
+  padding: 7px 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  text-decoration: none;
+  color: #000000;
+  background-color: #FFD050;
+  border-radius: 45px;
+}
+.write-link__icon {
+  margin-right: 25px;
+  width: 100%;
+  height: auto;
+  max-width: 35px;
+}
+@media screen and (max-width: 768px) {
+  .product-write__more {
+    flex-wrap: wrap;
+  }
+  .product-write__image {
+    flex-basis: 100%;
+  }
+  .product-write__info {
+    padding: 15px;
+    flex-basis: 100%;
+  }
+}
+/* Что такое мебельвеб конец */
